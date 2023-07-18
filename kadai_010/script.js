@@ -19,14 +19,14 @@ $(function () {
     );
   });
 
-  $('.carousel').slick({
-    autoplay: true,
-    dots: true,
-    fade: true,
-    infinite: true,
-    autoplaySpeed: 3500,
-    arrows: false,
-  });
+  // $('.carousel').slick({
+  //   autoplay: true,
+  //   dots: true,
+  //   fade: true,
+  //   infinite: true,
+  //   autoplaySpeed: 3500,
+  //   arrows: false,
+  // });
 
   $('#submit').on('click', function (event) {
     event.preventDefault();
